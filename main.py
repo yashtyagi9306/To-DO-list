@@ -20,7 +20,6 @@ def etask(n):
         y=y.upper()      
         main[z]=l
 
-
 def sname(main):
     x=main.keys()
     j=1
@@ -28,14 +27,9 @@ def sname(main):
         print(j,"-",i)
         j+=1
         
-
 def atask(l):
     t=input("Add a task: ")
     l.append(t)
-
-
-
-
 
 while True:
     w=int(input("Main Menu: \n1. Create To-do list\n2. Use To-do list\n3. Remove To-do list\n4. Quit\n"))
